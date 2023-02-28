@@ -1,0 +1,59 @@
+##### Written on 2023/02/28 14:32:19 ###############################
+
+
+##### DESIGN INFO ##################################################
+
+Top Module:
+	top_video_zone_display
+
+Constraint File(s):
+	D:/Projects/FPGA_match/jichuang/pango_school_match/project.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 4 critical warning(s), 0 warning(s), out of 80 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:tmds_data_n[1]} {PAP_IO_LOC} {A11}
+
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/jichuang/pango_school_match/project.fdc(line number: 43)] | Port tmds_data_n[1] has been placed at location A11, whose type is share pin.
+
+define_attribute {p:tmds_data_n[2]} {PAP_IO_LOC} {A10}
+
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/jichuang/pango_school_match/project.fdc(line number: 52)] | Port tmds_data_n[2] has been placed at location A10, whose type is share pin.
+
+define_attribute {p:tmds_data_p[1]} {PAP_IO_LOC} {B11}
+
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/jichuang/pango_school_match/project.fdc(line number: 70)] | Port tmds_data_p[1] has been placed at location B11, whose type is share pin.
+
+define_attribute {p:tmds_data_p[2]} {PAP_IO_LOC} {B10}
+
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/jichuang/pango_school_match/project.fdc(line number: 79)] | Port tmds_data_p[2] has been placed at location B10, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+
